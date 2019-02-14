@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add sqlite3
+
+PATH: 
+  /Users/USER/.sdkman/candidates/kotlin/current/bin:/Users/USER/Library/Android/sdk/tools:/Users/USER/Library/Android/sdk/platform-tools:/Users/USER/Library/Android/sdk:/Users/USER/Downloads/cocos2d-x-3.17/templates:/Users/USER/Downloads:/Users/USER/Downloads/cocos2d-x-3.17/tools/cocos2d-console/bin:/usr/local/opt/llvm@4/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Users/USER/Library/Android/sdk/tools:/Users/USER/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "$package_name$",
+    "version": "0.0.1",
+    "dependencies": {
+      $END$
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/USER/TrainingCamp/Node/sqlite/package.json: Unexpected token $ in JSON at position 76
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13

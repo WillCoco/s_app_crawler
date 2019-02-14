@@ -1,0 +1,11 @@
+{
+  "name": "sqlite",
+  "version": "0.0.1",
+  "dependencies": {
+    "crawler": "^1.2.0",
+    "lodash": "^4.17.11",
+    "promise-queue-plus": "^1.1.0",
+    "sqlite3": "^4.0.4",
+    "superagent": "^4.0.0"
+  }
+}
